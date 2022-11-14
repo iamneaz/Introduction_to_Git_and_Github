@@ -1,0 +1,4 @@
+cp disk_usage.py disk_usage_original.py # making a copy of original 
+cp disk_usage.py disk_usage_fixed.py # making a copy of fixed version to be fixed
+diff -u disk_usage.py disk_usage_fixed.py > disk_usage.diff # creating diff file after fix
+patch disk_usage.py < disk_usage.diff # patching the original file

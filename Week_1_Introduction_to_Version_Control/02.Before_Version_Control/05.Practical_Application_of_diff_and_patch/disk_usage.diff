@@ -1,0 +1,21 @@
+--- disk_usage.py	2022-11-14 08:54:05.294712100 +0600
++++ disk_usage_fixed.py	2022-11-14 09:01:19.783580200 +0600
+@@ -1,4 +1,5 @@
+ import shutil
++import sys
+ 
+ 
+ def check_disk_usage(disk, min_absolute, min_percent):
+@@ -14,9 +15,9 @@
+ 
+ 
+ # Check for at least 2 GB and 10% free
+-if not check_disk_usage("/", 2*2**30, 10):
++if not check_disk_usage("/", 2, 10):
+     print("ERROR: Not enough disk space")
+-    return 1
++    sys.exit(1)
+ 
+ print("Everything OK")
+-return 0
++sys.exit(0)

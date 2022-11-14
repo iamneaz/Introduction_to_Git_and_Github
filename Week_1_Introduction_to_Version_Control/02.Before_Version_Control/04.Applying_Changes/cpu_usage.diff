@@ -1,0 +1,12 @@
+--- cpu_usage.py	2022-11-14 08:35:11.364265800 +0600
++++ cpu_usage_colleage.py	2022-11-14 08:38:44.914624500 +0600
+@@ -2,7 +2,8 @@
+ 
+ 
+ def check_cpu_usage(percent):
+-    usage = psutil.cpu_percent()
++    usage = psutil.cpu_percent(1)
++    print("DEBUG: usage: {}".format(usage))
+     return usage < percent
+ 
+ 

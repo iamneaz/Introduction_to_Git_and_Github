@@ -1,0 +1,4 @@
+diff -u old_file new_file > change.diff
+# the greater than sign redirects the output of the diff command to a file. So with this command, we're generating a file called change.diff with the contents of diff-u command.
+
+patch cpu_usage.py < cpu_usage.diff
