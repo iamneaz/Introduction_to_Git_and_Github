@@ -1,0 +1,1 @@
+git commit --amend -->git will take whatever is currently in our staging area and run the git commit workflow to overwrite the previous commit. *** This command is not recomended to use on public repository

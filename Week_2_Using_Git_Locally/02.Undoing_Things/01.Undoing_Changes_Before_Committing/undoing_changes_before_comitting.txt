@@ -1,0 +1,4 @@
+git checkout <filename> #if the file is tracked in git, this command will revert it back to the previous state 
+# If you need to check out individual changes instead of the whole file, you can do that using the dash p flag. This will ask you change by change if you want to go back to the previous snapshot or not. 
+
+#   If we realize we've added something to the staging area that we didn't actually want to commit, we can unstage our changes by using the git reset command.
