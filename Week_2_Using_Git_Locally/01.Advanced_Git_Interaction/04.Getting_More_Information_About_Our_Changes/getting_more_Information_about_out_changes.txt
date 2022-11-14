@@ -12,4 +12,10 @@ ______________________________________________________
 git log --stat ---> This will cause git log to show some stats about the changes in the commit, like which files were changed and how many lines were added or removed.
 ______________________________________________________
 
-git diff ---> Before committing it, you need to make sure that it works correctly. Check that all the test cases are covered and so on and so on. So while doing this you find bugs in your code that you need to fix. It's only natural that by the time you get to the commit step you don't really remember everything you changed. To help us keep track git gives us the git diff command.g
+git diff ---> Before committing it, you need to make sure that it works correctly. Check that all the test cases are covered and so on and so on. So while doing this you find bugs in your code that you need to fix. It's only natural that by the time you get to the commit step you don't really remember everything you changed. To help us keep track git gives us the git diff command.
+
+_______________________________________________________
+
+git add -p ----> review changes before adding them is to use the -p flag with the git add command. When we use this flag, git will show us the change being added and ask us if we want to stage it or not.This way we can detect if there's any changes that we don't want to commit.
+______________________________________________________
+git diff --staged --> difference of staged but not commited
