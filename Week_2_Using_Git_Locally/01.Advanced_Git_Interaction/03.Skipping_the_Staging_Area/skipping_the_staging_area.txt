@@ -1,0 +1,7 @@
+# If we already know that the current changes are the ones that we want to commit, we can skip the staging step and go directly to the commit
+git commit -a --> A shortcut to stage any changes to tracked files and commit them in one step
+
+Example :
+git commit -a -m "Call check_reboot from main, exit with 1 on error"
+
+Git uses the head alias to represent the currently checked out snapshot of your project.

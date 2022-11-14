@@ -1,0 +1,15 @@
+if we're combing through a history of changes in a repo to try and find what caused the latest outage, we'll probably also need to look at the actual lines that changed in each commit. To do this with git log, we can use the -p flag. The p comes from patch, because using this flag gives us the patch that was created.
+
+git log -p
+______________________________________________________
+
+git show --> command takes a commit ID as a parameter, and will display the information about the commit and the associated patch.remember that this is an identifier that we see next to the word commit in the log.
+
+example:
+git show ec7e42a6b73fca430cd503e65b8c232cd3093f5fq (commit id can be found from the command git log)
+______________________________________________________
+
+git log --stat ---> This will cause git log to show some stats about the changes in the commit, like which files were changed and how many lines were added or removed.
+______________________________________________________
+
+git diff ---> Before committing it, you need to make sure that it works correctly. Check that all the test cases are covered and so on and so on. So while doing this you find bugs in your code that you need to fix. It's only natural that by the time you get to the commit step you don't really remember everything you changed. To help us keep track git gives us the git diff command.g
