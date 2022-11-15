@@ -1,0 +1,1 @@
+Running git pull will fetch the remote copy of the current branch and automatically try to merge it into the current local branch.

@@ -1,0 +1,7 @@
+We could have a look at the remote branches that our Git repo is currently tracking by running git branch -r.
+
+If we want to make a change to a remote branch, what must we do?
+=>Pull the remote branch, merge it with the local branch, then push it back to its origin.
+
+if (local out of date) shows in - git remote show origin 
+

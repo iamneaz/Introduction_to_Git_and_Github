@@ -1,0 +1,4 @@
+git log --graph --oneline --all. # This graph shows us the different commits and positions in the tree.
+git log -p origin/master #actual changes in that commit by running 
+
+after solving conflict , add the file to the git.

@@ -1,0 +1,6 @@
+
+* fetched content is downloaded in the remote repository 
+
+ If we want to integrate the branches into our master branch, we can perform a merge operation, which merges the origin/master branch into our local master branch. To do that, we'll call git merge origin/master
+
+ ** git fetch fetches remote updates but doesn't merge; git pull fetches remote updates and merges.
