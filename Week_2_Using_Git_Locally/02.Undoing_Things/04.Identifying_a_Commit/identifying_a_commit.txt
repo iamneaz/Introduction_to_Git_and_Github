@@ -1,0 +1,3 @@
+We can target a specific commit by using its commit ID.
+
+git show <commitID>

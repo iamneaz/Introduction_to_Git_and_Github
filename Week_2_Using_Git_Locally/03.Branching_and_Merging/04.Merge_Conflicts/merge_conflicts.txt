@@ -1,0 +1,11 @@
+if merge conflict occurs :
+1. check git status to see what is wrong
+2. fix conflicts by inspecting the code 
+3. add the file to git 
+4. check git status to see if it is fixed 
+4. Then git commit 
+
+# git log --graph --oneline # --graph for seeing the commits as a graph, and --oneline to only see one line per commit
+
+#   to throw away the merge and start over 
+git merge --abort 

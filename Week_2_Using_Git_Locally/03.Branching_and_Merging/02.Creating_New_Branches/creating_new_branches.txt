@@ -1,0 +1,11 @@
+# to see which branch we are in
+git branch 
+# to make a new branch 
+git branch <new Branch name>
+#  WE USE  git checkout TO CHECK OUT THE LATEST SNAPSHOT FOR BOTH FILES AND FOR BRANCHES 
+# creating new branch and switch to that branch
+git checkout -b <branch name> 
+# switching to another branch 
+git checkout <branch name>
+# deleting a branch 
+git branch -d <branch name>
